@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
     echo "<br>";
     echo "<br>";
     //echo $geoip->getIP();
-    echo $geoip->setIP('$dec');
+    echo $geoip->setIP((string)$dec);
     echo "<br>";
 
     echo "City: ";
