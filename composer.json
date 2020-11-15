@@ -1,0 +1,6 @@
+{
+    "require": {
+        "victorybiz/geoip-location": "^1.1",
+        "longman/ip-tools": "^1.2"
+    }
+}
